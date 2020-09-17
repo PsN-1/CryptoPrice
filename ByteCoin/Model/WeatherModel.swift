@@ -9,7 +9,7 @@
 import Foundation
 
 struct CoinModel {
-    let currency: String
-    let coinInit: String
-    let quote: Double
+    let base: String
+    let quote: String
+    let rate: Double
 }
